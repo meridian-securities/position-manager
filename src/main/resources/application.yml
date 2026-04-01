@@ -1,0 +1,9 @@
+ibm:
+  mq:
+    queue-manager: ${IBM_MQ_QUEUEMANAGER:QM_SETTLE}
+    conn-name: ${IBM_MQ_CONNNAME:localhost(1414)}
+    channel: ${IBM_MQ_CHANNEL:DEV.APP.SVRCONN}
+    user: ${IBM_MQ_USER:app}
+    password: ${IBM_MQ_PASSWORD:passw0rd}
+server:
+  port: 8080
